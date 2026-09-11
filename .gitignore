@@ -12,6 +12,10 @@ __pycache__/
 *.odp
 *.pptx
 
+# Original combined week 2 presentation
+week2-operators-strings-conditionals.odp
+week2-operators-strings-conditionals.pdf
+
 # Instructor solution files
 solutions/
 
