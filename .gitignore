@@ -5,6 +5,16 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
+# Local Markdown notes and instructor scripts
+*.md
+
+# Editable presentation files
+*.odp
+*.pptx
+
+# Instructor solution files
+solutions/
+
 # Virtual environments
 .venv/
 venv/
