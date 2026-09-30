@@ -18,6 +18,9 @@ week2-operators-strings-conditionals.pdf
 
 # Instructor solution files
 solutions/
+# Week 5 solutions are tracked for reference
+!Codes/week05/solutions/
+!Codes/week05/solutions/**
 
 # Virtual environments
 .venv/
