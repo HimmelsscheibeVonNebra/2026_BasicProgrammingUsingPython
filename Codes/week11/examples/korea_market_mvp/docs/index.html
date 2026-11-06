@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한국 주식시장 분석 실습</title>
+<style>
+body {font-family:system-ui,sans-serif;background:#f3f5f9;color:#17243c;margin:0}
+main {max-width:1040px;margin:48px auto;padding:24px}
+h1 {font-size:2rem} .meta {color:#53627b} .summary {background:#17243c;color:white;padding:24px;border-radius:12px}
+.scroll {overflow-x:auto} table {border-collapse:collapse;width:100%;background:white;margin-top:24px}
+caption {text-align:left;padding:12px 0;font-weight:bold}
+th,td {padding:14px;text-align:right;border-bottom:1px solid #dde3ec;white-space:nowrap}
+th:nth-child(-n+3),td:nth-child(-n+3) {text-align:left}
+.up {color:#b12a38} .down {color:#245bbb} .flat {color:#53627b}
+footer {margin-top:24px;color:#53627b;line-height:1.6}
+</style></head><body><main>
+<p class="meta">PYTHON / WEEK 11 / CLASSROOM DATA</p>
+<h1>한국 주식시장 분석</h1>
+<p>기준일: 2026-11-05 · 시장: ALL · 출처: 수업용 가상 CSV</p>
+<section class="summary" aria-label="표본 요약">
+종목 5개 · 상승 2 · 하락 2 · 보합 1
+<p>표본 단순평균 등락률 <strong>+0.40%</strong></p></section>
+<div class="scroll"><table><caption>일간 등락률 내림차순 / 동률은 종목코드 오름차순</caption>
+<thead><tr><th scope="col">코드</th><th scope="col">종목</th><th scope="col">시장</th>
+<th scope="col">종가 (원)</th><th scope="col">등락률</th><th scope="col">거래량 (주)</th></tr></thead>
+<tbody><tr><td>247540</td><td>에코프로비엠</td><td>KOSDAQ</td><td>103,000</td><td class="up">+3.00%</td><td>200,000</td></tr><tr><td>005930</td><td>삼성전자</td><td>KOSPI</td><td>71,400</td><td class="up">+2.00%</td><td>1,000,000</td></tr><tr><td>035420</td><td>NAVER</td><td>KOSPI</td><td>200,000</td><td class="flat">+0.00%</td><td>300,000</td></tr><tr><td>000660</td><td>SK하이닉스</td><td>KOSPI</td><td>198,000</td><td class="down">-1.00%</td><td>500,000</td></tr><tr><td>035900</td><td>JYP Ent.</td><td>KOSDAQ</td><td>49,000</td><td class="down">-2.00%</td><td>100,000</td></tr></tbody></table></div>
+<footer>교육용 가상 데이터입니다. 실제 시세 또는 현재 상장 종목 목록이 아닙니다.<br>
+표본의 단순평균이며 KOSPI/KOSDAQ 지수 수익률이 아닙니다. 투자 판단용 정보가 아닙니다.</footer>
+</main></body></html>
